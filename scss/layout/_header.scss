@@ -1,0 +1,54 @@
+.header {
+  text-align: center;
+  margin-bottom: $spacer * 2;
+  margin-top: $spacer * 2;
+}
+
+@keyframes hang {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+
+}
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 0.87;
+  align-items: center;
+  justify-content: center;
+  &__group-1 {
+    text-align: right;
+  }
+
+  &__group-1,
+  &__group-3 {
+    color: var(--color-text-body);
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__group-2 {
+    font-size: font-size('hero1') * 2.5;
+    padding: 0 $spacer / 2;
+    margin-right: -0.12em;
+    transform-origin: 20% 33%;
+    line-height: 0.8;
+  }
+
+  &__group-3 {
+    text-align: left;
+  }
+
+  &:hover {
+    .logo__group-2 {
+      animation: hang 1s ease-in-out alternate infinite;
+    }
+  }
+}

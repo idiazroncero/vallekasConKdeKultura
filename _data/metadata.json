@@ -1,10 +1,10 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://example.com/",
-  "language": "en",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "title": "Vallekas con K de Kultura",
+  "url": "https://conkdekultura.com/",
+  "language": "es",
+  "description": "Haciendo barrio, creamos pueblo.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "Haciendo barrio, creamos pueblo.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://example.com/"
@@ -14,8 +14,8 @@
     "url": "https://example.com/feed/feed.json"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com",
-    "url": "https://example.com/about-me/"
+    "name": "Nacho Diaz",
+    "email": "idiaz@idiazroncero.com",
+    "url": "https://idiazroncero.com"
   }
 }

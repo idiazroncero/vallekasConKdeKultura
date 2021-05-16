@@ -7,7 +7,9 @@
     "watch": "eleventy --watch",
     "serve": "eleventy --serve",
     "start": "eleventy --serve",
-    "debug": "DEBUG=* eleventy"
+    "debug": "DEBUG=* eleventy",
+    "css:watch": "sass scss/style.scss css/style.css --watch --load-path=node_modules",
+    "css:compile": "sass scss/style.scss css/style.css --load-path=node_modules"
   },
   "repository": {
     "type": "git",
@@ -31,5 +33,9 @@
     "luxon": "^1.26.0",
     "markdown-it": "^12.0.4",
     "markdown-it-anchor": "^7.1.0"
+  },
+  "dependencies": {
+    "huesos": "github:idiazroncero/huesos#dev",
+    "sass": "^1.32.13"
   }
 }

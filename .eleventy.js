@@ -59,6 +59,7 @@ module.exports = function(eleventyConfig) {
   // Copy the `img` and `css` folders to the output
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("fonts");
 
   // Customize Markdown library and settings:
   let markdownLibrary = markdownIt({
@@ -68,7 +69,8 @@ module.exports = function(eleventyConfig) {
   }).use(markdownItAnchor, {
     permalink: true,
     permalinkClass: "direct-link",
-    permalinkSymbol: "#"
+    permalinkSymbol: "#",
+    permalinkBefore: true
   });
   eleventyConfig.setLibrary("md", markdownLibrary);
 
