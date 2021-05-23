@@ -1,0 +1,33 @@
+<li>
+  <article class="card event">
+    <div class="card__image event__image">
+      {% if event.data.image %}
+        <img src="{{ event.data.image }}" alt="Imagen representando la actividad">
+      {% else %}
+        <img src="/img/bg.png" alt="Imagen representando la actividad">
+      {% endif %}
+    </div>
+    <div class="card__contents">
+      <h1 class="event__title">{{ event.data.title }}</h1>
+      <div class="event__place">
+        {{ event.data.start_date.getDate() }} de Junio, de {{ event.data.start_time }} a {{ event.data.end_time }} | Lugar: {{ event.data.ubication }}
+      </div>
+      <div class="event__description">
+        {{ event.templateContent | safe }}
+      </div>
+      <div class="event__metadata">
+        <div class="event__organizer">
+          Organiza: {{ event.data.organizer }}
+        </div>
+        <div class="event__tags">
+          {% for tag in event.data.tags %}
+            {% if tag == 'events' %}
+            {% else %}
+              <span class="event__tag tag">{{ tag }}</span>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </article>
+</li>

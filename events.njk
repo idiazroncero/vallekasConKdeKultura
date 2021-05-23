@@ -1,0 +1,10 @@
+---
+layout: layouts/base.njk
+---
+
+
+<ul class="intrinsic-grid--small events">
+  {%- for event in collections.events -%}
+    {% include "event-teaser.njk" %}
+  {%- endfor -%}
+</ul>

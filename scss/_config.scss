@@ -88,7 +88,7 @@ $gray-700: hsl(356, 10%, 30%);
 $gray-800: hsl(356, 10%, 20%);
 $gray-900: hsl(356, 10%, 10%);
 
-$black: $gray-900;
+$black: $gray-800;
 $white: #fff;
 
 $lightness-threshold: 60;
@@ -596,7 +596,7 @@ $max-grid-cols: 6;
 // We asume a centered, responsive and max-width limited viewport.
 // ------
 
-$max-width: 960px;
+$max-width: 1600px;
 $layout-align: center; // left, right
 $layout-padding: $spacer;
 
@@ -674,8 +674,8 @@ $disabled-opacity: 0.33;
 // Component for indvidual, card-like componentes
 // ------
 
-$card-border-width: 1px; // Set to false to avoid border
-$card-border-color: var(--color-utility-separator);// Can be false or a full border value, like 2px solid var(--color-utility-separator);
+$card-border-width: 4px; // Set to false to avoid border
+$card-border-color: $primary-200;// Can be false or a full border value, like 2px solid var(--color-utility-separator);
 $card-background: $white;
 $card-border-radius: $border-radius;
 $card-padding: $spacer; // In base-line-multi

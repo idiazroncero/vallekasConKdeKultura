@@ -5,6 +5,15 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  
+  main {
+    width: 100%;
+  }
+  
+  .home-text {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 // body {
