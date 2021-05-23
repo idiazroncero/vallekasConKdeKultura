@@ -10,7 +10,8 @@
     <div class="card__contents">
       <h1 class="event__title">{{ event.data.title }}</h1>
       <div class="event__place">
-        {{ event.data.start_date.getDate() }} de Junio, de {{ event.data.start_time }} a {{ event.data.end_time }} | Lugar: {{ event.data.ubication }}
+        {{ event.data.start_date.getDate() }} de Junio, de {{ event.data.start_time }} a {{ event.data.end_time }}<br>
+        Lugar: {{ event.data.ubication }}
       </div>
       <div class="event__description">
         {{ event.templateContent | safe }}
