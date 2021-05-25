@@ -1,10 +1,99 @@
 ---
 layout: layouts/base.njk
+permalink: /programa/
 ---
+<div class="tc mb-2">
+  <h1 class="page__title">Programa</h1>
+</div>
 
 
-<ul class="intrinsic-grid--small events">
-  {%- for event in collections.events -%}
-    {% include "event-teaser.njk" %}
-  {%- endfor -%}
-</ul>
+
+<div id="events">
+  <div class="events-filters">
+    <div class="form-item search-all">
+      <label for="search">Buscar por cualquier palabra</label>
+      <input id="search" class="search" placeholder="Escribe aquí..." />
+    </div>
+    <div class="form-item search-day">
+      <label for="day">Buscar por día</label>
+      <select id="day">
+        <option value="1">Martes 1</option>
+        <option value="2">Miércoles2</option>
+        <option value="3">Jueves 3</option>
+        <option value="4">Viernes 4</option>
+        <option value="5">Sábado 5</option>
+        <option value="6">Domingo 6</option>
+        <option value="7">Lunes 7</option>
+        <option value="8">Martes 8</option>
+        <option value="9">Miércoles 9</option>
+        <option value="10">Jueves 10</option>
+        <option value="11">Viernes 11</option>
+        <option value="12">Sábado 12</option>
+        <option value="13">Domingo 13</option>
+        <option value="14">Lunes 14</option>
+        <option value="15">Martes 15</option>
+        <option value="16">Miércoles 16</option>
+        <option value="17">Jueves 17</option>
+        <option value="18">Viernes 18</option>
+        <option value="19">Sábado 19</option>
+        <option value="20">Domingo 20</option>
+        <option value="21">Lunes 21</option>
+        <option value="22">Martes 22</option>
+        <option value="23">Miércoles 23</option>
+        <option value="24">Jueves 24</option>
+        <option value="25">Viernes 25</option>
+        <option value="26">Sábado 26</option>
+        <option value="27">Domingo 27</option>
+        <option value="28">Lunes 28</option>
+        <option value="29">Martes 29</option>
+        <option value="30">Miércoles 30</option>
+      </select>
+    </div>
+    <div class="form-item search-tags">
+      {% set taglist = collections.tagList %}
+      {% for tag in taglist | reverse %}
+        {% if tag == 'events' %}
+        {% else %}
+          <input type="radio" name="tags" id="tag-{{ loop.index }}" value="{{ tag }}">
+          <label for="tag-{{ loop.index }}">{{ tag }}</label>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  <ul class="intrinsic-grid--small events list">
+    {%- for event in collections.events -%}
+      {% include "event-teaser.njk" %}
+    {%- endfor -%}
+  </ul>
+</div>
+
+
+<script>
+  var options = {
+    valueNames: [ 
+      'event__title', 
+      'event__place', 
+      'event__description', 
+      'event__organizer',
+      'event__tags',
+      { attr: 'data-day', name: 'day' }
+    ]
+  };
+
+  var userList = new List('events', options);
+
+  var daySearch = document.getElementById('day');
+
+  daySearch.addEventListener('change', function(e){
+    userList.search(this.value, 'day');
+  });
+
+  var tagSearch = document.querySelectorAll('input[name="tags"]');
+
+  tagSearch.forEach(function(item, index){
+    item.addEventListener('change', function(e){
+      userList.search(this.value, 'event__tags');
+    })
+  })
+
+</script>

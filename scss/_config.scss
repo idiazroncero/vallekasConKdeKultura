@@ -289,7 +289,7 @@ $courier: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida S
 $weasterne: 'Weasterne', $courier;
 
 // Global variables. It is good practice (performance & design) to use a maximum of two typefaces.
-$font-main: $system;
+$font-main: 'Kumbh Sans', $system;
 $font-secondary: $weasterne; // Set to false to only only one font
 $font-monospace: $courier;
 
@@ -476,9 +476,9 @@ $form-border-radius: $border-radius;
 $label-as-minititle: false;
 
 // Inputs
-$input-border-strategy: bottom; // Options: full, bottom, none;
-$input-border-width: 1px;
-$input-padding-x: 0;
+$input-border-strategy: full; // Options: full, bottom, none;
+$input-border-width: 2px;
+$input-padding-x: $gutter / 4;
 $input-padding-y: $gutter / 6;
 
 // Buttons

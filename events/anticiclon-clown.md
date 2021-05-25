@@ -1,6 +1,6 @@
 ---
 title: Anticiclón clown
-start_date: 2021-06-20
+date: 2021-06-20
 start_time: "12:00"
 end_time: "13:00"
 ubication:  Solar Comunitario La Palmera y el Laurel. C/ Melquiades Biencinto, 60.

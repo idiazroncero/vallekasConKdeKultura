@@ -1,6 +1,6 @@
 ---
 title: Taller de música
-start_date: 2021-06-01
+date: 2021-06-01
 start_time: "19:00"
 end_time: "21:00"
 ubication:  Aún por determinar

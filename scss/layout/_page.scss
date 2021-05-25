@@ -9,6 +9,10 @@
   main {
     width: 100%;
   }
+
+  &__title {
+    font-family: $font-main;
+  }
   
   .home-text {
     margin-left: auto;
