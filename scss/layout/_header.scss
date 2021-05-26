@@ -23,9 +23,17 @@
   line-height: 0.87;
   align-items: center;
   justify-content: center;
-  &__group-1 {
-    text-align: right;
+  text-align: center;
+
+  @include breakpoint($small) {
+    &__group-1 {
+      text-align: right;
+    }
+    &__group-3 {
+      text-align: left;
+    }
   }
+
 
   &__group-1,
   &__group-3 {
@@ -40,10 +48,6 @@
     margin-right: -0.12em;
     transform-origin: 20% 33%;
     line-height: 0.8;
-  }
-
-  &__group-3 {
-    text-align: left;
   }
 
   &:hover {

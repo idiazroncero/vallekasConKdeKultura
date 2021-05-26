@@ -2767,9 +2767,15 @@ h6:hover .direct-link, .h6:hover .direct-link {
   line-height: 0.87;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
-.logo__group-1 {
-  text-align: right;
+@media (min-width: 640px) {
+  .logo__group-1 {
+    text-align: right;
+  }
+  .logo__group-3 {
+    text-align: left;
+  }
 }
 .logo__group-1, .logo__group-3 {
   color: var(--color-text-body);
@@ -2782,9 +2788,6 @@ h6:hover .direct-link, .h6:hover .direct-link {
   margin-right: -0.12em;
   transform-origin: 20% 33%;
   line-height: 0.8;
-}
-.logo__group-3 {
-  text-align: left;
 }
 .logo:hover .logo__group-2 {
   animation: hang 1s ease-in-out alternate infinite;
@@ -2813,6 +2816,13 @@ h6:hover .direct-link, .h6:hover .direct-link {
   margin-top: 3rem;
   padding-top: 1.5rem;
   margin-bottom: 3rem;
+}
+@media (max-width: 640px) {
+  .footer nav ul li {
+    text-align: center;
+    padding: 0.75rem;
+    width: 100%;
+  }
 }
 
 .events {
