@@ -86,14 +86,14 @@ permalink: /programa/
 
   daySearch.addEventListener('change', function(e){
   console.log('' + this.value);
-    userList.search('' + this.value, 'day');
+    userList.search('' + this.value, ['event__day']);
   });
 
   var tagSearch = document.querySelectorAll('input[name="tags"]');
 
   tagSearch.forEach(function(item, index){
     item.addEventListener('change', function(e){
-      userList.search(this.value, 'event__tags');
+      userList.search(this.value, ['event__tags']);
     })
   })
 
