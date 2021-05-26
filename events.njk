@@ -17,15 +17,15 @@ permalink: /programa/
     <div class="form-item search-day">
       <label for="day">Buscar por día</label>
       <select id="day">
-        <option value="1">Martes 1</option>
-        <option value="2">Miércoles2</option>
-        <option value="3">Jueves 3</option>
-        <option value="4">Viernes 4</option>
-        <option value="5">Sábado 5</option>
-        <option value="6">Domingo 6</option>
-        <option value="7">Lunes 7</option>
-        <option value="8">Martes 8</option>
-        <option value="9">Miércoles 9</option>
+        <option value="01">Martes 1</option>
+        <option value="02">Miércoles 2</option>
+        <option value="03">Jueves 3</option>
+        <option value="04">Viernes 4</option>
+        <option value="05">Sábado 5</option>
+        <option value="06">Domingo 6</option>
+        <option value="07">Lunes 7</option>
+        <option value="08">Martes 8</option>
+        <option value="09">Miércoles 9</option>
         <option value="10">Jueves 10</option>
         <option value="11">Viernes 11</option>
         <option value="12">Sábado 12</option>
@@ -76,7 +76,7 @@ permalink: /programa/
       'event__description', 
       'event__organizer',
       'event__tags',
-      { attr: 'data-day', name: 'day' }
+      'event__day'
     ]
   };
 
@@ -85,7 +85,8 @@ permalink: /programa/
   var daySearch = document.getElementById('day');
 
   daySearch.addEventListener('change', function(e){
-    userList.search(this.value, 'day');
+  console.log('' + this.value);
+    userList.search('' + this.value, 'day');
   });
 
   var tagSearch = document.querySelectorAll('input[name="tags"]');

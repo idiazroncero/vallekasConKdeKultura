@@ -2830,7 +2830,7 @@ h6:hover .direct-link, .h6:hover .direct-link {
   background-color: #fff;
   padding: 0.75rem;
   margin: 0.75rem;
-  min-width: 33%;
+  flex: 0 1 350px;
 }
 .events-filters .search-all label,
 .events-filters .search-day label {

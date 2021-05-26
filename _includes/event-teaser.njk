@@ -9,7 +9,8 @@
     </div>
     <div class="card__contents">
       <h1 class="event__title">{{ event.data.title }}</h1>
-      <div class="event__place" data-day="{{ event.data.date.getDate() }}">
+      <div class="event__place">
+        <span class="visually-hidden event__day">{{ event.data.date.toISOString().slice(8,10) }}</span>
         {{ event.data.date.getDate() }} de Junio, de {{ event.data.start_time }} a {{ event.data.end_time }}<br>
         Lugar: {{ event.data.ubication }}
       </div>

@@ -13,7 +13,7 @@
     background-color: $white;
     padding: $spacer / 2;
     margin: $spacer / 2;
-    min-width: 33%;
+    flex: 0 1 350px;
 
     label {
       font-size: font-size('small');
