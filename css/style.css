@@ -2837,7 +2837,7 @@ h6:hover .direct-link, .h6:hover .direct-link {
 }
 @media (min-width: 400px) {
   .events {
-    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
   }
 }
 
