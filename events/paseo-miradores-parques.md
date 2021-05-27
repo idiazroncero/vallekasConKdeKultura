@@ -4,7 +4,7 @@ date: 2021-06-13
 start_time: "10:00"
 end_time: "13.00"
 ubication:  Comenzaremos en el Parque de Bajas (Payaso Fofó)
-organizer: A.V. Palomreas Bajas
+organizer: A.V. Palomeras Bajas
 tags:
   - Paseos
 ---

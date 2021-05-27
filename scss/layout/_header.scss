@@ -25,15 +25,6 @@
   justify-content: center;
   text-align: center;
 
-  @include breakpoint($small) {
-    &__group-1 {
-      text-align: right;
-    }
-    &__group-3 {
-      text-align: left;
-    }
-  }
-
 
   &__group-1,
   &__group-3 {
@@ -48,11 +39,24 @@
     margin-right: -0.12em;
     transform-origin: 20% 33%;
     line-height: 0.8;
+    width: 100%;
   }
 
   &:hover {
     .logo__group-2 {
       animation: hang 1s ease-in-out alternate infinite;
+    }
+  }
+
+  @include breakpoint($small) {
+    &__group-1 {
+      text-align: right;
+    }
+    &__group-2 {
+      width: auto;
+    }
+    &__group-3 {
+      text-align: left;
     }
   }
 }

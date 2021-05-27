@@ -1,5 +1,14 @@
 .events {
   list-style: none;
+  display: grid;
+  grid-gap: $spacer;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+
+  @include breakpoint(400px) {
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  }
+
 }
 
 .events-filters {
@@ -43,6 +52,7 @@
   .search-tags {
     width: 100%;
     display:flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin-top: $spacer;
@@ -50,6 +60,7 @@
     label {
       background-color: $primary-800;
       padding: $spacer / 6 $spacer / 2;
+      margin: $spacer / 6;
       color: $white;
       text-transform: uppercase;
       font-weight: bold;
@@ -102,14 +113,14 @@
     @include font-size('h3', 'h4', $small);
     margin: -$spacer * 2 -$spacer/2 0 -$spacer/2;
     font-family: $font-main;
-    line-height: 0.95 !important;
+    line-height: 1.1 !important;
     margin-bottom: $spacer / 2;
     font-weight: bold;
     text-transform: uppercase;
     color: $gray-700;
     background-color: $white;
     padding: $spacer / 1.5 $spacer / 2 0 $spacer / 2;
-    width: min-content;
+    max-width: 300px;
   }
   
   &__place {

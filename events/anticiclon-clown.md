@@ -5,7 +5,7 @@ start_time: "12:00"
 end_time: "13:00"
 ubication:  Solar Comunitario La Palmera y el Laurel. C/ Melquiades Biencinto, 60.
 organizer: Asociación Vecinal Puente de Vallecas- San Diego
-image: /img/anticiclon.png
+image: /img/anticiclon.jpg
 tags:
   - Clown
 ---

@@ -5,6 +5,7 @@ start_time: "12:00"
 end_time: "20.00"
 ubication: El Espacio
 organizer: El Espacio / PCE Puente de Vallekas
+image: /img/carteles-politicos.jpg
 tags:
   - Exposición
 ---

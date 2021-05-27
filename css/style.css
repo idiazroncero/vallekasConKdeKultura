@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;700&display=swap");
 @font-face {
   font-family: "Weasterne";
   src: url("../fonts/Weasterne.woff2") format("woff2"), url("../fonts/Weasterne.woff") format("woff");
@@ -16,14 +15,14 @@
   --color-secondary-contrast: var(--color-text-body);
   --color-secondary-split-light: #FEFAEE;
   --color-secondary-split-dark: #724420;
-  --color-black: #382e2f;
+  --color-black: #544546;
   --color-white: #fff;
   --color-utility-separator: #d1c7c8;
   --color-utility-focus: #EE2E3A;
-  --color-text-body: #382e2f;
+  --color-text-body: #544546;
   --color-text-body-contrast: #fff;
-  --color-text-heading: #382e2f;
-  --color-mark-text: #382e2f;
+  --color-text-heading: #544546;
+  --color-mark-text: #544546;
   --color-mark-background: #F4E1BE;
   --color-background-body: #FEFAEE;
   --color-background-dark: #382e2f;
@@ -50,7 +49,7 @@
   --color-link-decoration-hover: #EE2E3A;
   --color-input-border: #d1c7c8;
   --color-input-pseudo-border: #705c5d;
-  --color-code-inline: #382e2f;
+  --color-code-inline: #544546;
   --color-code-inline-background: #FDF5DF;
   --color-code-block: #fff;
   --color-code-block-background: #1c1717;
@@ -68,12 +67,12 @@
 
 [data-theme-dark] {
   --color-black: #fff;
-  --color-white: #382e2f;
+  --color-white: #544546;
   --color-utility-separator: #544546;
   --color-text-body: #e8e3e3;
-  --color-text-body-contrast: #382e2f;
+  --color-text-body-contrast: #544546;
   --color-text-heading: #d1c7c8;
-  --color-background-body: #382e2f;
+  --color-background-body: #544546;
   --color-background-dark: #e8e3e3;
   --color-background-light: #382e2f;
   --color-state-disabled: #8c7374;
@@ -571,7 +570,7 @@ html {
   /* 3 */
   -webkit-text-size-adjust: 100%;
   /* 3 */
-  font-family: "Kumbh Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5rem;
   font-weight: normal;
@@ -1562,7 +1561,7 @@ fieldset.fieldset--disabled legend {
 }
 .form-item--error input,
 .form-item--error textarea {
-  border: 2px solid var(--color-state-danger);
+  border: 1px solid var(--color-state-danger);
 }
 
 .form-item--success label {
@@ -1570,12 +1569,12 @@ fieldset.fieldset--disabled legend {
 }
 .form-item--success input,
 .form-item--success textarea {
-  border: 2px solid var(--color-state-success);
+  border: 1px solid var(--color-state-success);
 }
 
 .form-item--label-inside {
   border-radius: false;
-  border: 2px solid var(--color-input-border);
+  border: 1px solid var(--color-input-border);
   padding: 0.25rem 0.375rem;
 }
 .form-item--label-inside input,
@@ -1586,7 +1585,7 @@ fieldset.fieldset--disabled legend {
 }
 
 input {
-  border: 2px solid var(--color-input-border);
+  border: 1px solid var(--color-input-border);
   padding: 0.25rem 0.375rem;
   /* Make webkit render the search input like a normal text field */
   /* Turn off the recent search for webkit. It adds about 15px padding on the left */
@@ -1622,11 +1621,11 @@ input[type=file] + label {
 }
 
 input::-webkit-file-upload-button {
-  border-right: 2px solid var(--color-input-border);
+  border-right: 1px solid var(--color-input-border);
 }
 
 .file-input {
-  border: 2px solid var(--color-input-border);
+  border: 1px solid var(--color-input-border);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1713,7 +1712,7 @@ select {
   color: inherit;
   font-size: inherit;
   font-family: inherit;
-  border: 2px solid var(--color-input-border);
+  border: 1px solid var(--color-input-border);
   padding: 0.25rem 0.375rem;
   -webkit-appearance: none;
   appearance: none;
@@ -1735,7 +1734,7 @@ select option {
 }
 
 textarea {
-  border: 2px solid var(--color-input-border);
+  border: 1px solid var(--color-input-border);
   /* Move the label to the top */
   vertical-align: top;
   /* Turn off scroll bars in IE unless needed */
@@ -2128,7 +2127,7 @@ a.tag--warning:hover, a.tag--warning:focus {
   border-width: 4px;
   border-style: solid;
   border-color: #FDBCAB;
-  box-shadow: 2px 2px 2px 0px rgba(56, 46, 47, 0.1);
+  box-shadow: 2px 2px 2px 0px rgba(84, 69, 70, 0.1);
 }
 .card .card {
   padding: 0.75rem;
@@ -2151,7 +2150,7 @@ a.tag--warning:hover, a.tag--warning:focus {
   letter-spacing: 0.1em;
   vertical-align: bottom;
   font-weight: bold;
-  font-family: "Kumbh Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, Arial, sans-serif;
   padding: 0.375rem 1.5rem;
   border-width: 2px;
   border-style: solid;
@@ -2641,7 +2640,7 @@ a.button--danger:hover:link, a.button--danger:hover:active, a.button--danger:hov
 }
 
 .sh {
-  box-shadow: 2px 2px 2px 0px rgba(56, 46, 47, 0.1);
+  box-shadow: 2px 2px 2px 0px rgba(84, 69, 70, 0.1);
 }
 
 .show-grid {
@@ -2769,14 +2768,6 @@ h6:hover .direct-link, .h6:hover .direct-link {
   justify-content: center;
   text-align: center;
 }
-@media (min-width: 640px) {
-  .logo__group-1 {
-    text-align: right;
-  }
-  .logo__group-3 {
-    text-align: left;
-  }
-}
 .logo__group-1, .logo__group-3 {
   color: var(--color-text-body);
   display: flex;
@@ -2788,9 +2779,21 @@ h6:hover .direct-link, .h6:hover .direct-link {
   margin-right: -0.12em;
   transform-origin: 20% 33%;
   line-height: 0.8;
+  width: 100%;
 }
 .logo:hover .logo__group-2 {
   animation: hang 1s ease-in-out alternate infinite;
+}
+@media (min-width: 640px) {
+  .logo__group-1 {
+    text-align: right;
+  }
+  .logo__group-2 {
+    width: auto;
+  }
+  .logo__group-3 {
+    text-align: left;
+  }
 }
 
 .page {
@@ -2804,7 +2807,7 @@ h6:hover .direct-link, .h6:hover .direct-link {
   width: 100%;
 }
 .page__title {
-  font-family: "Kumbh Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, Arial, sans-serif;
 }
 .page .home-text {
   margin-left: auto;
@@ -2827,6 +2830,15 @@ h6:hover .direct-link, .h6:hover .direct-link {
 
 .events {
   list-style: none;
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+}
+@media (min-width: 400px) {
+  .events {
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  }
 }
 
 .events-filters {
@@ -2876,6 +2888,7 @@ h6:hover .direct-link, .h6:hover .direct-link {
 .events-filters .search-tags {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   margin-top: 1.5rem;
@@ -2883,6 +2896,7 @@ h6:hover .direct-link, .h6:hover .direct-link {
 .events-filters .search-tags label {
   background-color: #8A0E37;
   padding: 0.25rem 0.75rem;
+  margin: 0.25rem;
   color: #fff;
   text-transform: uppercase;
   font-weight: bold;
@@ -2929,15 +2943,15 @@ h6:hover .direct-link, .h6:hover .direct-link {
   line-height: 1.1em;
   font-size: clamp(1.33rem, 0.86rem + 1.5666666667vw, 1.8rem);
   margin: -3.75rem -0.75rem;
-  font-family: "Kumbh Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  line-height: 0.95 !important;
+  font-family: "Helvetica Neue", Helvetica, Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, Arial, sans-serif;
+  line-height: 1.1 !important;
   margin-bottom: 0.75rem;
   font-weight: bold;
   text-transform: uppercase;
   color: #544546;
   background-color: #fff;
   padding: 1rem 0.75rem 0 0.75rem;
-  width: min-content;
+  max-width: 300px;
 }
 @media (min-width: 640px) {
   .event__title {

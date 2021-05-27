@@ -5,6 +5,7 @@ start_time: "11:00"
 end_time: "14:30"
 ubication:  Espacio de Todo. Manuel Laguna 19
 organizer: Espacio de Todo, del colectivo Todo por la Praxis
+image: /img/espectros-urbano.jpg
 tags:
   - Arte
   - Taller

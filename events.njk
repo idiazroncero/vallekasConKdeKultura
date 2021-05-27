@@ -6,8 +6,6 @@ permalink: /programa/
   <h1 class="page__title">Programa</h1>
 </div>
 
-
-
 <div id="events">
   <div class="events-filters">
     <div class="form-item search-all">
@@ -50,6 +48,8 @@ permalink: /programa/
       </select>
     </div>
     <div class="form-item search-tags">
+      <input type="radio" name="tags" id="tag-all" value="">
+      <label for="tag-all">Todos</label>
       {% set taglist = collections.tagList %}
       {% for tag in taglist | reverse %}
         {% if tag == 'events' %}
@@ -60,7 +60,7 @@ permalink: /programa/
       {% endfor %}
     </div>
   </div>
-  <ul class="intrinsic-grid--small events list">
+  <ul class="events list">
     {%- for event in collections.events -%}
       {% include "event-teaser.njk" %}
     {%- endfor -%}

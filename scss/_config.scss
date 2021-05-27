@@ -88,7 +88,7 @@ $gray-700: hsl(356, 10%, 30%);
 $gray-800: hsl(356, 10%, 20%);
 $gray-900: hsl(356, 10%, 10%);
 
-$black: $gray-800;
+$black: $gray-700;
 $white: #fff;
 
 $lightness-threshold: 60;
@@ -278,7 +278,7 @@ $times: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L
 $georgia: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 $garamond: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 
-$helvetica: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$helvetica: "Helvetica Neue", Helvetica, Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, Arial, sans-serif;
 $verdana: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
 $trebuchet: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
 
@@ -289,7 +289,7 @@ $courier: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida S
 $weasterne: 'Weasterne', $courier;
 
 // Global variables. It is good practice (performance & design) to use a maximum of two typefaces.
-$font-main: 'Kumbh Sans', $system;
+$font-main: $helvetica;
 $font-secondary: $weasterne; // Set to false to only only one font
 $font-monospace: $courier;
 
@@ -477,7 +477,7 @@ $label-as-minititle: false;
 
 // Inputs
 $input-border-strategy: full; // Options: full, bottom, none;
-$input-border-width: 2px;
+$input-border-width: 1px;
 $input-padding-x: $gutter / 4;
 $input-padding-y: $gutter / 6;
 
