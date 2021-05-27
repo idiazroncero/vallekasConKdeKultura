@@ -10,8 +10,23 @@
     <div class="card__contents">
       <h1 class="event__title">{{ event.data.title }}</h1>
       <div class="event__place">
-        <span class="visually-hidden event__day">{{ event.data.date.toISOString().slice(8,10) }}</span>
-        {{ event.data.date.getDate() }} de Junio
+
+        <span class="visually-hidden event__day">
+        {% if event.data.end_date -%}
+          {% set start_day = event.data.date.getDate() %}
+          {% set end_day = event.data.end_date.getDate() %}
+          {% for day in range(start_day, end_day + 1) %}
+            {% if day < 10 %}0{% endif %}{{- day -}}
+          {% endfor %}
+        {% else %}
+          {{ event.data.date.toISOString().slice(8,10) }}
+        {%- endif %}
+        </span>
+        {% if event.data.end_date %}
+          Del {{ event.data.date.getDate() }} al {{ event.data.end_date.getDate() }} de Junio
+        {% else %}
+          {{ event.data.date.getDate() }} de Junio
+        {% endif %}
         {% if event.data.start_time and event.data.end_time %}
           , de {{ event.data.start_time }} a {{ event.data.end_time }}
         {% endif %}<br>

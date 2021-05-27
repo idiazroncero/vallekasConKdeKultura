@@ -1,6 +1,7 @@
 ---
 title: Exposición Colectiva de Arte 
 date: 2021-06-06
+end_date: 2021-06-27
 ubication:  La Horizontal- C/ Eduardo Requenas 10
 organizer: Artistas del barrio
 tags:

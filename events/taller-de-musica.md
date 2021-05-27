@@ -7,5 +7,6 @@ ubication:  Aún por determinar
 organizer: Grupo de carritos de Somos Tribu Entrevías
 tags:
   - Música
+  - Taller
 ---
 Taller de música enseñando a chavales a hacer una canción desde 0 y todo lo que ello conlleva

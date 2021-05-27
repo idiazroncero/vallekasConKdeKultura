@@ -1,6 +1,7 @@
 ---
 title: Exposición Solidaria
 date: 2021-06-05
+end_date: 2021-06-27
 ubication:  Bar El Chascarrillo- C/ del Barco Sinaia 23
 organizer: Colectivo de Artistas
 tags:
