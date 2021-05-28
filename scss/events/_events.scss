@@ -108,6 +108,18 @@
   &__image {
     opacity: 0.4;
   }
+
+  &__tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -$spacer / 4;
+    margin-right: -$spacer / 4;
+    margin-left: -$spacer / 4;
+
+    .tag {
+      margin: $spacer / 4;
+    }
+  }
   
   &__title {
     @include font-size('h3', 'h4', $small);

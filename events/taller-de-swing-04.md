@@ -10,4 +10,4 @@ tags:
   - Baile
   - Taller
 ---
-Taller de swing
+Taller de swing (protocolo COVID)

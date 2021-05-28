@@ -10,3 +10,5 @@ tags:
   - Clown
 ---
 Actuación de clown para todas las edades. Pintacaras y globoflexia. Recogida de alimentos para la despensa de Somos Tribu San Diego.
+
+Aforo limitado, previa inscripción por correo electrónico (avptevallecas@gmail.com)

@@ -2938,6 +2938,16 @@ h6:hover .direct-link, .h6:hover .direct-link {
 .event__image {
   opacity: 0.4;
 }
+.event__tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -0.375rem;
+  margin-right: -0.375rem;
+  margin-left: -0.375rem;
+}
+.event__tags .tag {
+  margin: 0.375rem;
+}
 .event__title {
   font-size: 1.33rem;
   line-height: 1.1em;

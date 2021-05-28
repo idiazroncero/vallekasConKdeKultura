@@ -8,4 +8,4 @@ organizer: Vallekas con K de Kultura
 tags:
   - Música
 ---
-Edu de Nova debuta como cantautor de la mano de Óskar Expresso, Adormidera y Voodoo Women.
+Edu de Nova debuta como cantautor de la mano de Óskar Expresso y Voodoo Women.

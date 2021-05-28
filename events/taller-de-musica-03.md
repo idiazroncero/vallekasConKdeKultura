@@ -1,9 +1,9 @@
 ---
 title: Taller de música
-date: 2021-06-01
-start_time: "19:00"
-end_time: "21:00"
-ubication:  Aún por determinar
+date: 2021-06-16
+start_time: "18:00"
+end_time: "20:00"
+ubication:  Calle Yuste, 8 CSS Entrevías
 organizer: Grupo de carritos de Somos Tribu Entrevías
 tags:
   - Música
