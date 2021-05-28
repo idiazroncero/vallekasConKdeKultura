@@ -61,6 +61,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("js");
+  eleventyConfig.addPassthroughCopy("_redirects");
 
   // Customize Markdown library and settings:
   let markdownLibrary = markdownIt({
