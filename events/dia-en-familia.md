@@ -11,7 +11,7 @@ tags:
   - Taller
   - Música
 ---
-Mañana Pinta caras, decoración camisetas, manualidades en familia, henna, por la tarde pintacaras, henna, actuación de payasos, movimiento expresivo, masterclass zumba y aerobic
+Mañana Pinta caras, decoración camisetas, manualidades en familia, henna, por la tarde pintacaras, henna, actuación de Animación Teatral Infantil "Payasureros" de Circlosión de Carcajadas, movimiento expresivo, masterclass zumba y aerobic
 
 <mark>13:00</mark> Actuación de charanga en el patio de la asociación.
 
