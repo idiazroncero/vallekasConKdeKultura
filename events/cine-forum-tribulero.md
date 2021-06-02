@@ -1,8 +1,8 @@
 ---
 title: Cineforum tribulero
 date: 2021-06-04
-start_time: "10:00"
-end_time: "12:00"
+start_time: "22:00"
+end_time: "24:00"
 ubication:  CSO Atalaya - Calle Puerto del Milagro, 2 
 organizer: Somos Tribu Vk - Palomeras 
 image: /img/nomadland.jpg
