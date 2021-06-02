@@ -5,6 +5,7 @@ start_time: "10:00"
 end_time: "12:00"
 ubication:  CSO Atalaya - Calle Puerto del Milagro, 2 
 organizer: Somos Tribu Vk - Palomeras 
+image: /img/nomadland.jpg
 tags:
   - Cine
 ---

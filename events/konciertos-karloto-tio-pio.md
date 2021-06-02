@@ -5,6 +5,7 @@ start_time: "21:00"
 end_time: "23:00"
 ubication:  Cerro del Tío Pío 
 organizer: Colectivo Doña Karloto
+image: /img/mrfoxmad-karloto.jpg
 tags:
   - Música
 ---

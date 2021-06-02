@@ -5,6 +5,7 @@ start_time: "11:00"
 end_time: "15:00"
 ubication:  Parque vecinal Sputnik, c/ González Soto 19
 organizer: Colectivo Doña Karloto
+image: /img/mercadillo-karloto.jpg
 tags:
   - Artesanía
 ---

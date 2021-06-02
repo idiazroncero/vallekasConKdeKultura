@@ -5,6 +5,7 @@ start_time: "16:00"
 end_time: "20:00"
 ubication:  Parque vecinal Sputnik, c/ González Soto 19
 organizer: Colectivo Doña Karloto
+image: /img/fiestas-karloto.jpg
 tags:
   - Música
 ---
