@@ -9,3 +9,5 @@ tags:
   - Música
 ---
 Edu de Nova debuta como cantautor de la mano de Óskar Expresso y Voodoo Women.
+
+Entrada gratuita, aforo: 40 personas. Se necesitará reserva previa (actualizaremos pronto con los datos).

@@ -9,3 +9,5 @@ tags:
   - Música
 ---
 William Folkners y OTTO39
+
+Entrada gratuita, aforo: 50 personas. Se necesitará reserva previa (actualizaremos pronto con los datos).

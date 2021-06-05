@@ -9,3 +9,5 @@ tags:
   - Música
 ---
 La sombra del vaso y Arde
+
+Entrada gratuita, aforo: 50 personas. Se necesitará reserva previa (actualizaremos pronto con los datos).
