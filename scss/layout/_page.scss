@@ -18,6 +18,8 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  animation: loading_page 2s 1s ease-out 1 backwards;
 }
 
 // body {
@@ -25,3 +27,87 @@
 //   background-size: contain;
 //   background-repeat: no-repeat;
 // }
+
+@keyframes loading_page {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes abuela {
+  0% {
+    opacity: 1;
+  }
+  5% {
+    opacity: 0;
+  }
+  12% {
+    opacity: 0.5;
+  }
+  18% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0.9;
+  }
+  33% {
+    opacity: 0.25;
+  }
+  40% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 0.66;
+  }
+  66% {
+    opacity: 0.9;
+  }
+  77% {
+    opacity: 0.1;
+  }
+  90% {
+    opacity: 0.25;
+    z-index: -1;
+  }
+}
+
+
+#abuela,
+#camara,
+#music {
+  top:0;
+  position: fixed;
+  z-index: -1;
+  opacity: 0.25;
+}
+
+#abuela {
+  top: $spacer;
+  left: 50%;
+  top: 50%;
+  height: 66%;
+  transform:translate(-50%, -50%);
+  opacity: 0.15;
+  animation: abuela 1s linear 0s 1 alternate forwards;
+} 
+
+
+#camara {
+  display: none;
+  width: 25%;
+  top: 50%;
+  transform: translateX(-50%);
+  left: 50%;
+} 
+
+#music {
+  display: none;
+  width: 25%;
+  bottom: 0;
+  top: auto;
+  transform: rotate(20deg);
+  right: 0;
+} 
