@@ -5,10 +5,10 @@ start_time: "19:30"
 end_time: "22:00"
 ubication:  Despensa Somos Tribu San Diego (calle Eduardo Requenas)
 organizer: Vallekas con K de Kultura
-image: /img/sombradelvaso.jpg
+image: /img/sombradelvaso2.jpg
 tags:
   - Música
 ---
 La sombra del vaso y Arde
 
-Entrada gratuita, aforo: 50 personas. Reserva tu entrada via Whatsapp en el 646 25 72 93.
+<mark>CANCELADO</mark>
